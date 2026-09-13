@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho
+{
+background-color: aquamarine;
+ border-bottom: 1px solid red;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.logo h1{
+color: rgb(10, 75, 30);
+font-size: 21px;
+}
+
+
+h1{
+color: blue;
+}
+
+.logo span{
+    font-size: 30px;  
+}
+
+.menu{
+    display:flex;
+    gap: 28px;
+}
+
+.menu a{
+    color: rgb(1, 72, 27);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: blue;
+
+}
+
