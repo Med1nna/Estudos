@@ -1,0 +1,96 @@
+.aula4-div{
+
+    background-color: rgb(8, 237, 92);
+
+   
+
+}
+
+ 
+
+.aula4-div-agrupamento{
+
+    background-color: aqua;
+
+}
+
+ 
+
+.aula4-div-multiplos1{
+
+    background-color: bisque;
+
+}
+
+ 
+
+.aula4-div-multiplos2{
+
+    background-color: rgba(95, 138, 198, 0.878);
+
+}
+
+ 
+
+.aula4-div-multiplos3{
+
+    background-color: rgb(210, 121, 149);
+
+}
+
+ 
+
+.aula4-div-multiplos4{
+
+    background-color: rgb(206, 212, 117);
+
+}
+
+ 
+
+.aula4-div-container-multiplos{
+
+    width: 90%;
+
+    overflow: auto;
+
+    div{
+
+       
+
+        float: left;  
+
+    }    
+
+}
+
+ 
+
+.aula4-div-container-multiplos{
+
+    h2{
+
+        color:rgb(23, 17, 89)
+
+    }
+
+    p{
+
+        color: rgb(81, 16, 2)
+
+    }
+
+}
+
+ 
+
+.aula4-div-container-grid{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.aula4-div-container-grid div{
+    align-items: center;
+    padding: 10px;
+}
