@@ -15,27 +15,27 @@
 CATEGORIA 1: RECURSIVIDADE
 -------------------------------------------------
 
-**1. CÁLCULO DE FATORIAL** (Fácil)
+**1. CÁLCULO DE FATORIAL** (Fácil) — *Completed*
 1. Defina a função: recebe um inteiro `n`.
 2. Caso Base: se `n` for 0 ou 1, retorne 1.
 3. Recursão: se `n > 1`, retorne `n` multiplicado pela função(`n - 1`).
 - Complexidade: O(n).
 - Dica: desenhe a pilha de chamadas para `n = 4` no papel antes de codar; ajuda a visualizar onde a recursão "volta".
 
-**2. SOMA DOS DÍGITOS DE UM NÚMERO** (Fácil) — *novo*
+**2. SOMA DOS DÍGITOS DE UM NÚMERO** (Fácil) — *Completed*
 1. Defina a função: recebe um inteiro positivo `n`.
 2. Caso Base: se `n` tiver só um dígito (`n < 10`), retorne o próprio `n`.
 3. Recursão: retorne o último dígito (`n % 10`) somado à chamada da função com o restante do número (`n // 10`).
 - Complexidade: O(d), sendo d a quantidade de dígitos.
 
-**3. SOMA DOS ELEMENTOS DE UMA LISTA** (Fácil/Médio)
+**3. SOMA DOS ELEMENTOS DE UMA LISTA** (Fácil/Médio) — *Completed*
 1. Defina a função: recebe uma lista de números.
 2. Caso Base: se a lista estiver vazia, a soma é 0.
 3. Recursão: retorne o primeiro elemento somado à chamada da função passando o "resto" da lista.
 - Complexidade: O(n).
 - Dica: fatiar a lista a cada chamada (`lista[1:]`) tem custo de cópia em algumas linguagens; numa versão mais avançada, passe um índice em vez de fatiar.
 
-**4. POTENCIAÇÃO RECURSIVA** (Médio)
+**4. POTENCIAÇÃO RECURSIVA** (Médio) — *Completed*
 1. Defina a função: recebe `base` e `expoente`.
 2. Caso Base: se `expoente == 0`, retorne 1.
 3. Recursão: se `expoente > 0`, retorne `base` multiplicada pela função(`base`, `expoente - 1`).
