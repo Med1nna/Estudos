@@ -1,0 +1,23 @@
+.register-user{
+    background-color: rgb(21, 240, 149);
+    text-align: center;
+}
+
+
+.personal-informations{
+    background-color: rgb(70, 70, 209);
+
+}
+
+.address-informations{
+    background-color: rgb(35, 165, 209);
+
+}
+
+.aula5-formulario{
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+}
