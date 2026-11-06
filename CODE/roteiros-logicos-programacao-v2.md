@@ -42,14 +42,14 @@ CATEGORIA 1: RECURSIVIDADE
 - Complexidade: O(n) na versão simples.
 - Desafio extra: implemente a exponenciação rápida, dividindo o expoente por 2 a cada chamada em vez de subtrair 1 — cai para O(log n).
 
-**5. SEQUÊNCIA DE FIBONACCI** (Médio)
+**5. SEQUÊNCIA DE FIBONACCI** (Médio) — *Completed*
 1. Defina a função: recebe a posição `n`.
 2. Casos Base: se `n = 0`, retorna 0; se `n = 1`, retorna 1.
 3. Dupla Recursão: se `n > 1`, retorne função(`n - 1`) + função(`n - 2`).
 - Complexidade: O(2^n) na versão ingênua — recalcula os mesmos valores várias vezes.
 - Desafio extra: implemente memoização (cache dos resultados já calculados) e veja a complexidade cair para O(n). É a porta de entrada para Programação Dinâmica.
 
-**6. TORRE DE HANÓI** (Difícil)
+**6. TORRE DE HANÓI** (Difícil) — *Completed*
 1. Defina a função: precisa de `n` discos e três pinos (origem, destino, auxiliar).
 2. Caso Base: se `n = 1`, mova da origem para o destino e encerre.
 3. Primeira Recursão: se `n > 1`, mova `n-1` discos da origem para o auxiliar.
@@ -61,7 +61,7 @@ CATEGORIA 1: RECURSIVIDADE
 CATEGORIA 2: BUSCA E OTIMIZAÇÃO
 -------------------------------------------------
 
-**1. BUSCA LINEAR (Sequencial)** (Fácil)
+**1. BUSCA LINEAR (Sequencial)** (Fácil) — *Completed*
 1. O Loop: percorra a lista do índice 0 até o último.
 2. A Checagem: em cada passo, "esse é o item que eu procuro?".
 3. Sucesso: se for igual, retorne o índice atual.
